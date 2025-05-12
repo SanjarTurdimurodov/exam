@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulla Qodiriy nomidagi Jizzax Davlat Pedagogika Universiteti Matematika va Informatika fakulteti</title>
+    <style>
+        /* Asosiy uslublar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        header img {
+            height: 130px;  /* Rasmning balandligi */
+            width: auto;
+            border-radius: 50%; /* Rasmni yumaloqlash (agar kerak bo'lsa) */
+        }
+        
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsiv dizayn */
+        @media (max-width: 600px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+        }
+        #divv {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            
+            bottom: 0;
+            width: 100%;    /* Footer to'liq kenglikni egallaydi */
+        }
+        /* O‘rinbosarlar konteyneri */
+        .deputies {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .deputy-card {
+            background-color: #fff;
+            width: 500px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <!-- Logotip rasmni joylashtirish -->
+        <a href="exam1.html" ><img src="logo.png" alt="Universitet Logotipi"></a>
+        <div>
+            <h1 style="color: white;">Abdulla Qodiriy nomidagi Jizzax Davlat Pedagogika Universiteti Matematika va Informatika fakulteti</h1>
+            <p></p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="dekanat.html">Dekanat</a>
+        <a href="kafedra.html">Kafedra</a>
+        <a href="talabalar.html">Talabalar</a>
+        <a href="yutuqlar.html">Yutuqlar</a>
+        <a href="yangiliklar.html">Yangiliklar</a>
+        <a href="talabalarijodidan.html">Talabalar ijodidan</a>
+       
+    </nav>
+
+    <!-- O‘rinbosarlar -->
+    <div class="deputies">
+        <div class="deputy-card">
+            <h1>Matematika o‘qitish metodikasi kafedrasi mudiri</h1>
+            <img src="fsulaymonov.jpg" alt="O‘rinbosar rasmi" style="width: 400px; height: auto; border-radius: 10px; margin-bottom: 20px;">
+            <p><strong>Ismi:</strong> Fayzullayev Sherzod</p>
+            <p><strong>Faoliyati:</strong> 2025-yil 18-fevraldan</p>
+            <p><strong>Telefon:</strong> +998(90)488-84-09</p>
+            <p><strong>Telegram:</strong> @sherzodf</p>
+            <p><strong>Elektron pochta:</strong> jamshid_egr@mail.ru</p>
+        </div>
+
+        <div class="deputy-card">
+            <h1>Informatika va raqamli ta’lim texnologiyalari kafedrasi mudiri</h1>
+            <img src="abegbotayev.jpg" alt="O‘rinbosar rasmi" style="width: 400px; height: auto; border-radius: 10px; margin-bottom: 20px;">
+            <p><strong>Ismi:</strong> Hotamov Fazogir</p>
+            <p><strong>Ish tajribasi:</strong> 20 yildan ortiq</p>
+            <p><strong>Mutaxassisligi:</strong> Matematika va Ta'lim texnologiyalari</p>
+            <p><strong>Telegram:</strong> @Jamshid_ergashev</p>
+            <p><strong>Elektron pochta:</strong> dekan@jdpu.uz</p>
+        </div>
+    </div>
+    <div id="divv">
+        <p>&copy; 2025 JDPU MI </p>
+        <p>Tel: +998(90)488-84-09   Telegram: @TTS_dev email: turdimuradovs05@gmail.com </p>
+    </div>
+</body>
+</html>
